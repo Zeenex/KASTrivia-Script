@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KASTrivia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/rtl.css">
+
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/faq.js"></script>
+
+</head>
+<body>
+
+<!-- Start content section -->
+<div class="content-main"> 
+  <div class="nav" id="myTopnav">    
+    <a href="index.php">Home</a>
+    <a href="leaderboard.php">Leaderboard</a>
+    <a href="faq.html">FAQ</a>
+    <a href="signup.php"><button class="btn-default">Play</button></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+<div class="faq-title"> <p>How can we help you?</p></div>
+
+<div class="faq-search">
+  <form>
+  <input type="text" name="search">
+  </form>
+</div>
+<div class="faq-title-middle"> <p>FAQ</p></div>
+<div class="faq-title-bottom"> <p>Frequently Asked Questions</p></div>
+
+<div class="faq-row">
+
+<div class="faq-left">
+  
+  <div id="show">Getting Started</div>
+  <div id="show2">Pricing</div>
+  <div id="show">Payment</div>
+  <div id="show">Gameplay</div>
+  <div id="show">Profile</div>
+
+</div>
+
+<div class="faq-right">
+  
+  <div class="faqans" style="display: none;">
+  <p>Q. How do i sign up?</p>
+  <p>A. Click the play button on the navigation tab follow the instructions.</p>
+</div>
+<div class="faqans2" style="display: none;">
+  <p>Q. Can we play a demo before paying to the game?</p>
+  <p>A. Yes you can play a demo before paying to the game. After signing up, click the 'Trial' button to get started.</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- end content section --> 
+</div>
+
+
+<div class="footer">  
+ 
+
+
+  <div class="faq-footer-bottom">    
+    <div class="fbt-one">
+      <p>CATEGORIES</p>      
+        <li><a href="category.php">Sports</a></li>
+        <li><a href="category.php">Music</a></li>
+        <li><a href="category.php">Movies</a></li>
+
+    </div>
+    <div class="fbt-two">
+      <p>INFORMATION</p>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Job</a></li>
+     
+    </div>
+    <div class="fbt-three">
+      <p>Support</p>
+      
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Report a Problem</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="legal.html">Legal & Privacy</a></li>
+
+    </div>
+    <div class="fbt-four">
+      <span><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+      <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+      <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+      <span><i class="fa fa-google-plus-square" aria-hidden="true"></i></span>
+      <br>
+       
+    </div>
+    <p>Find us</p> 
+  </div>
+
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+
+</body>
+</html> 

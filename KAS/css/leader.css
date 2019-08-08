@@ -1,0 +1,138 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tdrow th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 33% ;
+}
+
+.tdrow i {
+  color: red;
+}
+
+.leaderrow{
+    
+    width: 60%;
+	padding: 5px;
+	margin: 100px auto 10px auto;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.leaderrow {
+    
+	text-align:left;
+}
+
+.leader-position{
+    
+     width: 95%;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto 20px auto;
+    color: #fff;
+}
+
+.leader-position h2{
+  float: left;
+}
+
+.leader-position .left-pos{
+
+  float: left;
+  width: 33%;  
+  margin-top: 30px;
+  color: #999;
+  
+}
+.leader-position .player2{
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 0 auto;
+    
+}
+
+.left-pos button{  
+  border-radius: 7px;
+  background-color: transparent !important;
+  border: 2px solid #aaa;
+}
+
+
+.leader-position .middle-pos{
+  float: left;
+  width: 33%;  
+  margin-top: -30px;
+  color: #999;
+  
+}
+.middle-pos .player1{
+       
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    
+}
+
+.middle-pos button{  
+  border-radius: 7px;
+  background-color: transparent !important;
+  border: 2px solid #aaa;
+}
+
+.leader-position .right-pos{
+  float: left;
+  width: 33%;  
+  margin-top: 30px;
+  color: #999;
+  margin: 0 auto;
+  
+}
+.right-pos .player3{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 0 auto;
+    
+}
+.right-pos button{
+  border-radius: 7px;
+  background-color: transparent !important;
+  border: 2px solid #aaa;
+}
+
+
+@media only screen and (max-width: 414px){
+    
+    .leader-position{width: 100%; padding: 2px; margin:0 auto;}
+    .leader-result{width: 100%;}
+    .leader-title{padding: 10px; margin-bottom: 10px;}
+    .leaderrow{width: 90%;}
+   
+    .leader-position .player2{width: 50px;height: 50px;}
+    .middle-pos .player1{width: 70px;height: 70px;margin-left: 10px;}
+    .right-pos .player3{width: 50px;height: 50px; margin-left: 20px;}
+    .left-pos .player2{width: 50px;height: 50px; margin-left: 20px;}
+    
+    
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 630px) {
+    
+    .leader-position{width: 90%}
+    .leader-title{padding: 10px; margin-bottom: 10px;}
+    .leaderrow{width: 90%;}
+}
+
+
+
+
+

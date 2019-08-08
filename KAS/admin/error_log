@@ -1,0 +1,2 @@
+[07-Aug-2019 08:08:30 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/kastrivi/public_html/admin/welcome.php on line 115
+[07-Aug-2019 08:08:30 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/kastrivi/public_html/admin/welcome.php on line 130
